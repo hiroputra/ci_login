@@ -11,17 +11,6 @@ class Send_email extends CI_Controller {
     {
         $this->load->library('email');
 
-            // $config['protocol']    = 'smtp';
-            // $config['smtp_host']    = 'ssl://smtp.googlemail.com';
-            // $config['smtp_port']    = '465';
-            // $config['smtp_timeout'] = '7';
-            // $config['smtp_user']    = 'helpdesk.nam19@gmail.com';
-            // $config['smtp_pass']    = 'Narada1234!@#$';
-            // $config['charset']    = 'utf-8';
-            // $config['newline']    = "\r\n";
-            // $config['wordwrap']     = TRUE;
-            // $config['mailtype'] = 'text'; // or html
-            // $config['validation'] = FALSE;
 
             $config['protocol']    = 'smtp';
             $config['smtp_host']    = 'ssl://mail.gijagijug.com';
