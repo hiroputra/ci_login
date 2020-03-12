@@ -55,7 +55,7 @@ class Send_email extends CI_Controller {
         // }
 
         if ($this->email->send()) {
-            echo 'Sukses! email berhasil dikirim.';
+            echo 'Sukses! email berhasil dikirim. bujug';
         } else {
             show_error($this->email->print_debugger());
         }
