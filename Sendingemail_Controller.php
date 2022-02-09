@@ -5,6 +5,7 @@ class Sendingemail_Controller extends CI_Controller {
         $this->load->library('session');
         $this->load->helper('form');
     }
+    //tes
     public function index() {
         $this->load->helper('form');
         $this->load->view('contact_email_form');
