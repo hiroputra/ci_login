@@ -24,7 +24,7 @@ class Sendingemail_Controller extends CI_Controller {
         'charset'   => 'utf-8'
         )
 		
-        $this->load->library('email'$config);
+        // $this->load->library('email'$config);
 
         $config = array(
         'protocol'  => 'smtp',
